@@ -16,6 +16,9 @@
   background-color: #fff;
   box-shadow: 0, 2px 5px rgba(0, 0, 0, 0.8);
   border-radius: 10px;
+  color: black;
+  position: relative;
+
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -29,6 +32,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+ 
+}
+.tast-title{
+  /* background-color: rebeccapurple; */
+  margin-top: 30px;
+  display: flex;
+  height: 70px;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
 }
 .maincont{
   width: 100vw;
@@ -36,6 +50,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.heading{
+  text-align: center;
 }
 .formIn{
  
@@ -47,7 +64,7 @@
 
 .formIn input{
   width: 20vw;
-  padding: 8px;
+  padding: 8px; 
 }
 .formIn button{
   width: 20vw;
@@ -92,6 +109,12 @@ button:hover {
   border-color: #595fe0;
 }
 
+
+.button-container{
+  position: absolute;
+  right: 0;
+  padding-right: 25px;
+}
 
 @media (prefers-color-scheme: light) {
   :root {

@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className="maincont">
     <div className="main">
-      <h1>To-Do List</h1>
+      <h1 className="heading">To-Do List</h1>
       {editingTask ? (
         <EditTask
           task={editingTask}
